@@ -131,3 +131,13 @@
 // to ensure the correct libraries are selected at link time.
 // #define BOOST_LIB_BUILDID amd64
 
+// WiiU
+
+#define BOOST_ASIO_HAS_PTHREADS 0
+
+#define BOOST_ASIO_DISABLE_THREADS
+#define BOOST_ASIO_DISABLE_POSIX
+#define BOOST_ASIO_DISABLE_WINDOWS
+#define BOOST_ASIO_DISABLE_SERIAL_PORT
+#define BOOST_ASIO_DISABLE_PIPE
+#define BOOST_ASIO_DISABLE_SIGNAL
